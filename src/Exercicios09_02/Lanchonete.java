@@ -13,7 +13,7 @@ Scanner leia = new Scanner (System.in);
 	System.out.println ("\n6- Suco de laranja - R$13,00");
 	System.out.println ("\nInsira o código do seu lanche:");
 	op = leia.nextInt();
-	if (op <=0 || op >=7) {
+	if (op <=0 || op >=7) { 
 		System.out.println ("Operação inválida.");
 	}else {
 	System.out.println ("\nQuantos vão ser?");
